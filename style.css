@@ -1,0 +1,92 @@
+/* Modern Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eef2f7;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #0D47A1;
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: 600;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a.active {
+    border-bottom: 3px solid #FFD54F;
+}
+
+.container {
+    margin: 30px auto;
+    width: 90%;
+    max-width: 1000px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #1565C0;
+}
+
+button {
+    background-color: #FFD54F;
+    color: #0D47A1;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: #FFC107;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border: 2px solid #90CAF9;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: #E3F2FD;
+}
+
+.sports-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.sport-card {
+    background-color: #FFFFFF;
+    border: 2px solid #42A5F5;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.sport-card:hover {
+    transform: translateY(-5px);
+}
+
+.sport-card img {
+    width: 100%;
+    border-bottom: 3px solid #0D47A1;
+    border-radius: 8px 8px 0 0;
+}

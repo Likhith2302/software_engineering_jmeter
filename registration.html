@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Register for Sports</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="sports.html">Sports Catalog</a>
+            <a href="registration.html" class="active">Register</a>
+            <a href="booking.html">Booking</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Registration Form</h2>
+        <form id="registration-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <select id="sport" required>
+                <option value="">Select a Sport</option>
+                <option value="Football">Football</option>
+                <option value="Basketball">Basketball</option>
+                <option value="Tennis">Tennis</option>
+                <option value="Cricket">Cricket</option>
+                <option value="Badminton">Badminton</option>
+            </select>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+    <script src="js/app.js"></script>
+
+</body>
+</html>
