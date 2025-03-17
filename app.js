@@ -12,7 +12,7 @@ document.getElementById("registration-form")?.addEventListener("submit", (e) => 
     }
 
     alert(`✅ Successfully registered for ${sport} as ${name}!`);
-    window.location.href = "dashboard.html";
+    window.location.href = "./dashboard.html"; // Ensure the path is correct
 });
 
 // Booking Form Handling
